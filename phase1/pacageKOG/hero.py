@@ -4,7 +4,7 @@
 
 import random
 
-class hero():
+class Hero():
     '''
     skin='英雄的原始皮肤'
     name='英雄的姓名'
@@ -28,9 +28,10 @@ class hero():
         self.ab_difficulity=random.randint(1,100)
         return
 
-        property
-        def name(self):
+    @property
+    def name(self__name):
             return self__name
 
-        def position(self):
+    @property
+    def position(self__position):
             return self__position
